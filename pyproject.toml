@@ -1,0 +1,12 @@
+[project]
+name = "repo2reel"
+version = "0.1.0"
+description = "A one-command tool that turns any GitHub repo into a polished animated architecture walkthrough developers can share on X, LinkedIn, and their README. It rides the trending interest in reusable AI video-production skills and animated architecture diagrams, but differentiates by focusing on repo-to-video automation rather than a generic skill pack."
+requires-python = ">=3.11"
+
+[project.scripts]
+repo2reel = "repo2reel.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
